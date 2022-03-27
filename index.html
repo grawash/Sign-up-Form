@@ -15,6 +15,57 @@
         </div>
         <p class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
     </div>
-    <div class="mainArea"></div>
+    <div class="mainArea">
+        <div class="mainText">
+            <div class="text">
+                <p>This is not a real online service! You know you need something like
+                    this in your life to help you realize your deepest dreams. Sign up
+                    <em>now</em> to get started.
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+        </div>
+        <form id="myForm" action="" method="get">
+            <h2>Let's do this!</h2>
+            <div class="row names">
+                <div class="formBlock">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="fName" required>
+                </div>
+                <div class="formBlock">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lName" required>
+                </div>
+            </div>
+            <div class="row info">
+                <div class="formBlock">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="mail" required>
+                </div>
+
+                <div class="formBlock">
+                    <label for="phoneNum">PHONE NUMBER</label>
+                    <input type="text" id="phoneNum" name="phoneNum" required>
+                </div>
+            </div>
+            <div class="row password">
+                <div class="formBlock">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="passwd" required>
+                </div> 
+                <div class="formBlock">
+                    <label for="rePassword">REPEAT PASSWORD</label>
+                    <input type="password" id="rePassword" name="rePasswd" required>
+                </div> 
+            </div>
+        </form>
+        <div class="submit">
+            <button type="submit" form="myForm">Create Account</button>
+            <p>Already have an account? <a class ="logIn" href="">log in</a></p>
+
+        </div>
+    </div>
 </body>
 </html>
