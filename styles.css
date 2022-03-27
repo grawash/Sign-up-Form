@@ -1,0 +1,45 @@
+@font-face {
+    font-family: oldNorse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+body{
+    display: flex;
+    margin:0;
+}
+.banner{
+    height: 100vh;
+    background-image: url(./images/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.logoBackground{
+    background-color: rgba(0, 0, 0,0.5);
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding:15px 0px;
+}
+img{
+    height: 8rem;
+}
+h1{
+    margin: 0px;
+    font-family: oldNorse;
+}
+.credit{
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
+.credit a{
+    color:white;
+}
+.mainArea{
+    flex-grow: 4;
+}
